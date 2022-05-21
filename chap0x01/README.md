@@ -102,7 +102,7 @@
 
 验证
 
-![本地收到](img\home_receive.png)
+![本地收到](img/home_receive.png)
 
 ### 如何配置 `SSH` 免密登录？
 
