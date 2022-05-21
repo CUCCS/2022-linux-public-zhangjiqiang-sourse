@@ -12,11 +12,11 @@
 
 ### 本地
 
-`sudo apt-add-repository ppa:zanchey/asciinema`
-
-`sudo apt-get update`
-
-`sudo apt-get install asciinema`
+```
+sudo apt-add-repository ppa:zanchey/asciinema
+sudo apt-get update
+sudo apt-get install asciinema
+```
 
 ![`ascii-check`](img/ascii-check.png)
 
@@ -52,11 +52,11 @@
 
 #### `tmux`
 
-`sudo apt-get update`
-
-`sudo apt-get install tmux`
-
-`which tmux`
+```
+sudo apt-get update
+sudo apt-get install tmux
+which tmux
+```
 
 [![asciicast](https://asciinema.org/a/tLhckQJvRi3s70Vm8cY20f0DO.svg)](https://asciinema.org/a/tLhckQJvRi3s70Vm8cY20f0DO)
 
@@ -64,15 +64,13 @@
 
 #### `tshark`
 
-`sudo apt-get update`
-
-`sudo apt-get install tshark`
-
-`which tshark`
-
-`sudo apt-get remove tshark`
-
-`which tshark`
+```
+sudo apt-get update
+sudo apt-get install tshark
+which tshark
+sudo apt-get remove tshark
+which tshark
+```
 
 [![asciicast](https://asciinema.org/a/vk2AjIl0bItCZV9EArPURKpzJ.svg)](https://asciinema.org/a/vk2AjIl0bItCZV9EArPURKpzJ)
 
@@ -82,13 +80,12 @@
 
 #### `tshark`
 
-`yum install tmux wireshark`
-
-`which tmux tshark`
-
-`yum remove wireshark`
-
-`which tshark`
+```
+yum install tmux wireshark
+which tmux tshark
+yum remove wireshark
+which tshark
+```
 
 [![asciicast](https://asciinema.org/a/X7Zvnfr4bcO4015oKeTsGhpB3.svg)](https://asciinema.org/a/X7Zvnfr4bcO4015oKeTsGhpB3)
 
@@ -102,17 +99,19 @@
 
 #### 本地
 
-`sudo find ./ -name "*666*"`
-
-`sudo grep -r "666" *`
+```
+sudo find ./ -name "*666*"
+sudo grep -r "666" *
+```
 
 [![asciicast](https://asciinema.org/a/4cc1W3Fz6mVrwGGm5jdUanEF8.svg)](https://asciinema.org/a/4cc1W3Fz6mVrwGGm5jdUanEF8)
 
 #### 云端
 
-`find ./ -name "*666*"`
-
- `grep -r "666" *`
+```
+find ./ -name "*666*"
+grep -r "666" *
+```
 
  [![asciicast](https://asciinema.org/a/2Ir1OR9Cyysw27JvqOAYYDQB3.svg)](https://asciinema.org/a/2Ir1OR9Cyysw27JvqOAYYDQB3)
 
@@ -122,45 +121,48 @@
 
 #### gzip
 
-`gzip test.txt`
-
-`gzip -d test.txt.gz`
+```
+gzip test.txt
+gzip -d test.txt.gz
+```
 
 [![asciicast](https://asciinema.org/a/lqHBbbPXMvZTYBoRUPSvdHJbh.svg)](https://asciinema.org/a/lqHBbbPXMvZTYBoRUPSvdHJbh)
 
 #### bzip2
 
-`bzip2 test.txt`
-
-`bzip2 -d test.txt.bz2`
+```
+bzip2 test.txt
+bzip2 -d test.txt.bz2
+```
 
 [![asciicast](https://asciinema.org/a/sI6qguanUz4EgqsZwkUDYyZ6k.svg)](https://asciinema.org/a/sI6qguanUz4EgqsZwkUDYyZ6k)
 
 #### zip
 
-`zip test.zip test.txt`
-
-`unzip test.zip`
+```
+zip test.zip test.txt
+unzip test.zip
+```
 
 [![asciicast](https://asciinema.org/a/mtPEftj5TlhKjxPPYuF7zpptW.svg)](https://asciinema.org/a/mtPEftj5TlhKjxPPYuF7zpptW)
 
 #### tar
 
-`tar -jcvf test.tar.bz2 test.txt`
-
-`tar -jxvf test.tar.bz2`
+```
+tar -jcvf test.tar.bz2 test.txt
+tar -jxvf test.tar.bz2
+```
 
 [![asciicast](https://asciinema.org/a/Z6hPI52SjAcmlM6gOvXSY8Dt0.svg)](https://asciinema.org/a/Z6hPI52SjAcmlM6gOvXSY8Dt0)
 
 #### 7z (p7zip)
 
-`sudo apt install p7zip-full`
-
-`7za a test.7z /home/cuc/*`
-
-`7za l test.7z`
-
-`7za x test.7z`
+```
+sudo apt install p7zip-full
+7za a test.7z /home/cuc/*
+7za l test.7z
+7za x test.7z
+```
 
 [![asciicast](https://asciinema.org/a/XE0wa7LHcydP28od2DAjZCdwP.svg)](https://asciinema.org/a/XE0wa7LHcydP28od2DAjZCdwP)
 
@@ -186,45 +188,48 @@
 
 #### gzip
 
-`gzip test.txt`
-
-`gzip -d test.txt.gz`
+```
+gzip test.txt
+gzip -d test.txt.gz
+```
 
 [![asciicast](https://asciinema.org/a/adTaLIQFNJDLwKvhmB39HsGzG.svg)](https://asciinema.org/a/adTaLIQFNJDLwKvhmB39HsGzG)
 
 #### bzip2
 
-`bzip2 test.txt`
-
-`bzip2 -d test.txt.bz2`
+```
+bzip2 test.txt
+bzip2 -d test.txt.bz2
+```
 
 [![asciicast](https://asciinema.org/a/cvFFxhSTTw3cm0ko9kzF66PL9.svg)](https://asciinema.org/a/cvFFxhSTTw3cm0ko9kzF66PL9)
 
 #### zip
 
-`zip test.zip test.txt`
-
-`unzip test.zip`
+```
+zip test.zip test.txt
+unzip test.zip
+```
 
 [![asciicast](https://asciinema.org/a/tOUlv1Tj29rCuTE6sD61fp8Gk.svg)](https://asciinema.org/a/tOUlv1Tj29rCuTE6sD61fp8Gk)
 
 #### tar
 
-`tar -jcvf test.tar.bz2 test.txt`
-
-`tar -jxvf test.tar.bz2`
+```
+tar -jcvf test.tar.bz2 test.txt
+tar -jxvf test.tar.bz2
+```
 
 [![asciicast](https://asciinema.org/a/zWUi9N9Rcezf2VfSmcLuDMFFz.svg)](https://asciinema.org/a/zWUi9N9Rcezf2VfSmcLuDMFFz)
 
 #### 7z (p7zip)
 
-`yum -y install p7zip`
-
-`7za a test.7z/root/*`
-
-`7za l test.7z`
-
-`7za x test.7z`
+```
+yum -y install p7zip
+7za a test.7z/root/*
+7za l test.7z
+7za x test.7z
+```
 
 [![asciicast](https://asciinema.org/a/sjh4R0ytMYIwvgUATHOYXo9za.svg)](https://asciinema.org/a/sjh4R0ytMYIwvgUATHOYXo9za)
 
@@ -238,19 +243,15 @@
 
 安装`unrar`
 
-`wget --no-check-certificate http://www.rarlab.com/rar/rarlinux-x64-5.5.0.tar.gz`
-
-`tar -xzvf rarlinux-x64-5.5.0.tar.gz` 
-
-`cd rar`
-
-`make`
-
-`mkdir -p /usr/local/rar`
-
-`cp rar unrar /usr/local/rar`
-
-`cp rar unrar /usr/local/bin`
+```
+wget --no-check-certificate http://www.rarlab.com/rar/rarlinux-x64-5.5.0.tar.gz
+tar -xzvf rarlinux-x64-5.5.0.tar.gz
+cd rar
+make
+mkdir -p /usr/local/rar
+cp rar unrar /usr/local/rar
+cp rar unrar /usr/local/bin
+```
 
 解压
 
@@ -318,7 +319,7 @@
 
 6，无论是云端或者虚拟机往本机发文件还是本机发给云端或者虚拟机，都在本机操作
 
-7，vim ：输入“i”进入编辑模式，按“esc”退出编辑模式，输入“:wq”退出编辑器
+7，`vim` ：输入`i`进入编辑模式，按`esc`退出编辑模式，输入`:wq`退出编辑器
 
 # 参考文献
 
