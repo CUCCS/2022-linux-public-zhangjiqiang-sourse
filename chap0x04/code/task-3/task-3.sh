@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 function help {
-    echo "-h 帮助手册"
-    echo "-a 统计访问来源主机TOP 100和分别对应出现的总次数"
-    echo "-b 统计访问来源主机TOP 100 IP和分别对应出现的总次数"
-    echo "-c 统计最频繁被访问的URL TOP 100"
-    echo "-d 统计不同响应状态码的出现次数和对应百分比"
-    echo "-e 分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数"
-    echo "-f 给定URL输出TOP 100访问来源主机"
+    echo "-h     帮助手册"
+    echo "-a     统计访问来源主机TOP 100和分别对应出现的总次数"
+    echo "-b     统计访问来源主机TOP 100 IP和分别对应出现的总次数"
+    echo "-c     统计最频繁被访问的URL TOP 100"
+    echo "-d     统计不同响应状态码的出现次数和对应百分比"
+    echo "-e     分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数"
+    echo "-f url 给定URL输出TOP 100访问来源主机"
 }
 #统计访问来源主机TOP 100和分别对应出现的总次数
 function host_time {
